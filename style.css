@@ -1,0 +1,85 @@
+/*omg still coding!*/
+div{
+  border: 2px solid black;
+  margin: 1%;
+}
+
+nav{
+  display: flex;
+background-color: black;
+  
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/*use nav code across all three pages */
+.nav{
+  font-family: 'Taviraj', serif;
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  text-align: center;
+  color: white;
+  
+}
+ul{
+  flex:auto;
+}
+
+img{
+  height: 20%;
+  width: 20%;
+}
+
+.image{
+  padding: 0%;
+  border: none;
+  text-align: center
+}
+
+.container{
+  text-align: center;
+  border: none;
+}
+
+.container > div{
+  text-align: justify;
+}
+
+h2{
+  font-family: 'Libre Baskerville', serif;
+}
+.paragraph{
+  border: none;
+}
+
+/*now that i think about it, I probably should a more robust page for my project*/
+.footer{
+  border: none;
+  text-align: center;
+
+}
+
+.photos{
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  align-items: flex-end;
+}
+/* for contact page*/
+.contact{
+  text-align: center;
+  padding: 2%
+}
+
+/*inside the about page*/
+.socials{
+align-content: center;
+  height: 100px;
+
+  border: none;
+  
+}
